@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo_contato.css">
+    <title>Levi Ferreira</title>
+</head>
+<body>
+    <header>
+        <h1>Levi Ferreira - Web-Designer</h1>
+    </header>
+
+    <!-- Mensagem acionada assim que o botão do formulário for assionado -->
+
+    <script>
+        function msg(){
+            alert("Site feito para fins escolares. Este formulário é apenas representativo!");
+        }
+    </script>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="Ícones/sobre-mim.png">  Sobre Mim</a></li>
+                <li><a href="formacao.html"><img src="Ícones/formacao.png">  Formação</a></li>
+                <li><a href="portfolio.html"><img src="Ícones/portfolio.png">  Portfólio</a></li>
+                <li><a href="contato.html"><img src="Ícones/contato.png">  Contato</a></li>
+            </ul>
+        </nav>
+        <div id="principal">
+            <h1><u>Entre em Contato</u></h1>
+            <br>
+            <main>Estou colocando um formulário de contato, caso queiram perguntar qualquer coisa sobre mim, minha vida profissional e estudantil. Fiquem a vontade para preguntarem o que quiserem, pois estarei respondendo todos os E-mails.</main>
+
+            <!-- Formulário que pegará as informações do usuário - Formulário Ilustrativo -->
+
+            <form>
+                <div class="item">
+                    Nome: <input type="text" id="nome">
+                </div>
+                <div class="item">
+                    E-mail: <input type="email" id="email">
+                </div>
+                <div class="item">
+                    Digite sua Mensagem: 
+                    <br>
+                    <textarea id="texto"></textarea>
+                </div>
+                <div id="botao">
+                    <a onclick="msg()">
+                        <button type="button">Enviar Mensagem</button>
+                    </a>
+                </div>
+            </form>
+            <br>
+            <hr>
+            <br>
+            <center><div>Meu E-mail: levifariasferreira@gmail.com</div></center>
+        </div>
+    </section>
+    <footer>
+        Copyrigth 2024 - Todos os direitos reservados!
+    </footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Corpo da Página*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Cabeçalho*/
+
+header{
+    text-align: center;
+    background-color: #107fff;
+    color: white;
+    padding: 40px;
+}
+
+/*Configuração geral das seções para responsividade*/
+
+section{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+
+/*Configuração do menu que mudará de tamanho conforme a tela*/
+
+nav{
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    background-color: #e7e7e7;
+    min-width: 180px;
+    height: 253px;
+    max-height: 220px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 7px;
+    font-size: 18px;
+    flex: 1 1 0px;
+}
+
+nav li{
+    padding: 12px 0px;
+    list-style-type: none;
+}
+
+nav li img{
+    width: 25px;
+    height: 25px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+/*Bloco principal onde ficarão os conteúdos*/
+
+div#principal{
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 15px 0px;
+    margin: 20px 15px 20px 15px;
+    border-radius: 7px;
+    padding: 30px 15px 15px;
+    font-size: 18px;
+    text-align: justify;
+    flex: 1 1 530px;
+}
+
+#principal main{
+    padding-bottom: 15px;
+    margin: 10px 10px 0px;
+}
+
+#secao1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#secao1 div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    flex: 1 1 350px;
+    padding-bottom: 10px;
+}
+
+#secao1 img{
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#secao1 a{
+    text-decoration: underline;
+    color: black;
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    font-size: 25.9px;
+    text-align: center;
+}
